@@ -1,12 +1,17 @@
-import adapter from "@sveltejs/adapter-auto";
-import { vitePreprocess } from "@sveltejs/kit/vite";
+import adapter from '@sveltejs/adapter-auto';
+import { vitePreprocess } from '@sveltejs/kit/vite';
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
-  kit: {
-    adapter: adapter(),
-  },
-  preprocess: vitePreprocess(),
+	kit: {
+		adapter: adapter(),
+		alias: {
+			/* prettier-ignore */
+			'$lib': 'src/lib',
+			'$lib/*': 'src/lib/*'
+		}
+	},
+	preprocess: vitePreprocess()
 };
 
 export default config;
