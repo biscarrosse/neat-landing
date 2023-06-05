@@ -44,7 +44,7 @@
 
 
 <div class="absolute w-screen h-screen flex flex-col justify-center items-center z-10">
-	<a href='https://alesklasek.com/projects' target="_blank" class="absolute z-20 top-0 mt-4 underline underline-offset-4 bg-cyan-300/[.85] hover:bg-cyan-400/[.85] px-4 py-2 hover:cursor-pointer">
+	<a href='https://github.com/biscarrosse' target="_blank" class="absolute z-20 top-0 mt-4 underline underline-offset-4 bg-cyan-300/[.85] hover:bg-cyan-400/[.85] px-4 py-2 hover:cursor-pointer">
 		Author & code 👀🧜‍♂️
 	</a>
 
